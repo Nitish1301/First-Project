@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-container{
+    display: flex;
+    min-width: 100vh;
+    width: 100%;
+}
+.nav-a{
+display: flex;
+width: 100%;
+height: 15vh;
+ /* background-color: chocolate;  */
+/* cursor: pointer; */
+position: fixed;
+}
+.name{
+margin-top: 25px;
+margin-left:80px;
+font-size: 50px;
+color: white;
+font-family: "Great Vibes", serif;
+font-weight: 400;
+font-style: normal;
+}
+.name span{
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+color: greenyellow;
+}
+.nav-list{
+display: flex;
+gap: 2.5rem;
+align-items: center;
+margin-left: 150px;
+}
+.nav-list li{
+list-style: none;
+}
+.nav-list li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.nav-list li a:hover{
+    /* background: linear-gradient(90deg, #6a11cb, #2575fc); */
+    color: gold;
+    cursor: pointer;
+}
+.nav-left , .nav-right{
+    height: 100vh;
+}
+.nav-left{
+width: 80%;
+background-color: #262525;
+}
+.content{
+margin-top: 200px;
+margin-left: 80px;
+max-width: 70%;
+
+}
+.para{
+margin-top: 30px;
+font-size: 20px;
+color: gray;
+}
+.head{
+margin-top: 30px;
+letter-spacing: 3px;
+font-size: 80px;
+color: white;
+text-shadow: 
+1px 1px 2px rgba(0, 0, 0, 0.5), /* Soft black shadow for subtle depth */
+0 0 10px rgba(255, 105, 180, 0.4); /* Light pink glow */
+}
+.sub-head{
+letter-spacing: 3px;
+font-size: 20px;
+border: 1px solid black;
+border-radius: 8px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 5px 10px;
+background: linear-gradient(90deg, #FF6B6B, #FFD93D);
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.button{
+    margin-top: 30px;
+    letter-spacing: 2rem;
+}
+.button-1{
+  font-size: 20px;
+  border-radius: 8px;
+  letter-spacing: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: skyblue;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.button-1:hover{
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    cursor: pointer;
+}
+.button-2:hover{
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    cursor: pointer;
+}
+.button-2{
+font-size: 20px;
+border-radius: 8px;
+letter-spacing: 3px;
+padding: 10px 20px;
+cursor: pointer;
+background-color: skyblue;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.social-media{
+letter-spacing: 2px;
+display: flex;
+gap: 3rem;
+margin-top: 60px;
+font-size: 20px;
+}
+.social-media .fa-brands{
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877FF);
+    /* -webkit-background-clip: te; */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+.check{
+color: white;
+}
+.nav-right{
+width: 20%;
+background: url(WhatsApp\ Image\ 2025-01-17\ at\ 01.09.17.jpeg);
+}
+.design .circle{
+aspect-ratio: 1;
+position: absolute;
+border-radius: 50%;
+top: 50%;
+left: 80%;
+transform: translate(-50% , -50%);
+}
+.circle:nth-child(1){
+background: linear-gradient(90deg,#262525 60%,#6a11cb);
+width: 25rem;
+}
+.circle:nth-child(2){
+background: #FF6B6B;
+width: 20rem;
+background-image: url(port.jpg);
+background-position: center;
+background-size: contain;
+border: 0.7rem solid white;
+box-shadow: 0 0 1rem #fff,
+inset 0 0  1rem #fff,
+0 0 2rem #3877FF,
+inset 0 0 2rem #3877FF;
+/* background-repeat: no-repeat; */
+}
+

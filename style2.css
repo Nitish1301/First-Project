@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        background: linear-gradient(to right, #4A90E2, #50E3C2);
+}
+.nav-image{
+display: flex;
+gap: 70px;
+}
+.image{
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 160px;
+    height: 350px;
+}
+.heading{
+margin-top: 300px;
+font-size: 50px;
+}
+.date{
+    /* margin-right: 300px; */
+    text-align: right;
+}
+.content{
+margin: 80px 150px;
+}
+.heading2{
+letter-spacing: 8px;
+font-size: 40px;
+}
+.para{
+    margin-top: 10px;
+}
+.biography{
+margin-top: 30px;
+}
+.heading4{
+font-size: 20px;
+letter-spacing: 2px;
+}
+.nav-list{
+margin-top: 20px;
+}
+.last{
+margin-top: 30px;
+margin-left: 400px;
+}
+.last p a:hover{
+    color: yellowgreen;
+}
