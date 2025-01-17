@@ -170,4 +170,29 @@ inset 0 0  1rem #fff,
 inset 0 0 2rem #3877FF;
 /* background-repeat: no-repeat; */
 }
+@media only screen and (max-width:380px){
+    .design .circle{
+        aspect-ratio: 1;
+        position: absolute;
+        border-radius: 50%;
+        top: 60%;
+        left: 133%;
+        transform: translate(-50% , -50%);
+        }
+        .circle:nth-child(1){
+        background: linear-gradient(90deg,#262525 60%,#6a11cb);
+        width: 18rem;
+        }
+        .circle:nth-child(2){
+        background: #FF6B6B;
+        width: 12rem;
+        background-image: url(port.jpg);
+        background-position: center;
+        background-size: contain;
+        border: 0.7rem solid white;
+        box-shadow: 0 0 1rem #fff,
+        inset 0 0  1rem #fff,
+        0 0 2rem #3877FF,
+        inset 0 0 2rem #3877FF;
+}
 
