@@ -170,7 +170,7 @@ inset 0 0  1rem #fff,
 inset 0 0 2rem #3877FF;
 /* background-repeat: no-repeat; */
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:576px){
     .design .circle{
         aspect-ratio: 1;
         position: absolute;
